@@ -1,0 +1,18 @@
+*, body, html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contaier sl-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+.contaier h1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
