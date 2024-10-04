@@ -4,14 +4,12 @@
 }
 
 .container {
-    sl-avatar {
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        flex-direction: column;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
     
-    h1 {
+    sl-avatar {
         display: flex;
         align-items: center;
         justify-content: start;
