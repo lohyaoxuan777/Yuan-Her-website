@@ -3,13 +3,13 @@
   background: skyblue;
 }
 
-.container sl-avatar {
+.container {
   display: flex;
   align-items: center;
   justify-content: start;
   flex-direction: column;
 }
-.container h1 {
+.container sl-avatar {
   display: flex;
   align-items: center;
   justify-content: start;
