@@ -1,4 +1,4 @@
-*, body, html {
+body, html {
   font-family: Arial, Helvetica, sans-serif;
   background: skyblue;
 }
@@ -17,6 +17,13 @@
 }
 .container button {
   background-color: white;
+}
+.container .aboutme {
+  margin-bottom: 50px;
+}
+
+code {
+  font-family: monospace;
 }
 
 /*# sourceMappingURL=style.css.map */
