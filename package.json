@@ -4,7 +4,7 @@
     "webpack-cli": "^5.1.4"
   },
   "name": "yuan-her-website",
-  "version": "0.6.7",
+  "version": "0.7.1",
   "description": "a website",
   "main": "scripts/index.js",
   "dependencies": {
