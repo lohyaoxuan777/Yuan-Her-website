@@ -1,6 +1,12 @@
-import $ from 'jquery';
+import angular from "angular";
 
-$('.aboutinfo').slideUp("fast")
-$('.aboutme').click(() => { 
-    $('.aboutinfo').slideToggle();
-});
+angular.module("myApp", []).controller("controllermain", [
+    "$scope",
+    function ($scope) {
+        $scope.isAboutInfoVisible = false;
+
+        $scope.toggleAboutInfo = function () {
+            $scope.isAboutInfoVisible = !$scope.isAboutInfoVisible;
+        };
+    },
+]);
