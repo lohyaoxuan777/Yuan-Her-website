@@ -4,7 +4,7 @@
     "webpack-cli": "^5.1.4"
   },
   "name": "yuan-her-website",
-  "version": "0.3.4",
+  "version": "0.5.7",
   "description": "a website",
   "main": "scripts/index.js",
   "dependencies": {
@@ -12,6 +12,7 @@
     "acorn-import-attributes": "^1.9.5",
     "ajv": "^6.12.6",
     "ajv-keywords": "^3.5.2",
+    "angular": "^1.8.3",
     "browserslist": "^4.24.0",
     "buffer-from": "^1.1.2",
     "caniuse-lite": "^1.0.30001667",
