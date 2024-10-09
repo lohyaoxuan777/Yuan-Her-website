@@ -1,0 +1,11 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": "auto" // This allows Babel to determine the module type
+        }
+      ]
+    ]
+  }
+  

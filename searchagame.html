@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search a Game! - Yuan Her's Website</title>
+    <link rel="stylesheet" href="searchagame.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/shoelace-autoloader.js"></script>
+</head>
+<body>
+    <div class="container" ng-app="myApp" ng-controller="controllersearchagame">
+        <h1>Search a Game down below!</h1>
+        <div class="search">
+            <sl-input class="searchbar" placeholder="Search Game" filled clearable type="dropdown">
+                <sl-icon name="chevron-right" slot="prefix"></sl-icon>
+            </sl-input>
+            <sl-button class="searchbtn" variant="primary" outline>
+                <sl-icon name="search" slot="prefix"></sl-icon>
+                Search
+            </sl-button>
+            
+        </div>
+        <div class="copyright">
+            <code>Yuan Her Website&trade; 2024. All rights reserved</code>
+        </div>
+    </div>
+</body>
+</html>

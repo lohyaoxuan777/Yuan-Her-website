@@ -1,5 +1,5 @@
 import angular from "angular";
-// import angularAnimate from "angular-animate";
+//import angularAnimate from "angular-animate";
 
 angular.module("myApp", []).controller("controllermain", [
     "$scope",
@@ -8,6 +8,10 @@ angular.module("myApp", []).controller("controllermain", [
 
         $scope.toggleAboutInfo = function () {
             $scope.isAboutInfoVisible = !$scope.isAboutInfoVisible;
+        };
+        
+        $scope.gotoGameSearch = () => {
+            location.href = "searchagame.html";
         };
     },
 ]);

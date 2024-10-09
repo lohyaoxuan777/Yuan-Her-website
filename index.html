@@ -11,23 +11,25 @@
 </head>
 <body ng-app="myApp" ng-controller="controllermain">
     <div class="container">
-        <sl-avatar label="Yuan Her" image="assets/avatar.png"></sl-avatar>
-        <h1>Yuan Her Website&trade;</h1>
-        <p>Welcome to Yuan Her's Website, <i>version alpha v0.7.1</i></p>
-        <sl-button class="aboutme" variant="primary" ng-click="toggleAboutInfo()" filled>
-            <!-- <sl-icon name="file-person" slot="prefix"></sl-icon> -->
-            <span class="material-symbols-outlined" slot="prefix">info</span>
-            About Me
-        </sl-button>
-        <p class="aboutinfo" ng-show="isAboutInfoVisible" ng-style="aboutInfo">I'm Yuan Her. My school is SJKC Chung Hwa 2 at Butterworth, Malaysia.</p>
-        
-        
-
-        <div class="copyright">
+       <div class="info-div">
+            <sl-avatar label="Yuan Her" image="assets/avatar.png"></sl-avatar>
+            <h1>Yuan Her Website&trade;</h1>
+            <p>Welcome to Yuan Her's Website, <i>version alpha v0.7.1</i></p>
+            <sl-button class="aboutme" variant="primary" ng-click="toggleAboutInfo()" filled>
+                <!-- <sl-icon name="file-person" slot="prefix"></sl-icon> -->
+                <span class="material-symbols-outlined" slot="prefix">info</span>
+                About Me
+            </sl-button>
+            <p class="aboutinfo" ng-show="isAboutInfoVisible" ng-style="aboutInfo">I'm Yuan Her. My school is SJKC Chung Hwa 2 at Butterworth, Malaysia.</p>
+       </div>
+       <div class="content">
+            <sl-button class="playagame" variant="success" ng-click="gotoGameSearch()" outline>Play a Game!</sl-button>
+       </div>
+       <div class="copyright">
             <code>Yuan Her Website&trade; 2024. All rights reserved</code>
         </div>
     </div>
     <!-- <script src="src/index.js"></script> -->
-    <script src="dist/main.js"></script>
+    <script src="dist/bundle.js"></script>
 </body>
 </html>

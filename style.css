@@ -1,25 +1,25 @@
 body, html {
   font-family: Arial, Helvetica, sans-serif;
   background: skyblue;
+  color: black;
+}
+
+.info-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .container {
   display: flex;
   align-items: center;
-  justify-content: start;
-  flex-direction: column;
-}
-.container sl-avatar {
-  display: flex;
-  align-items: center;
-  justify-content: start;
+  justify-content: center;
   flex-direction: column;
 }
 .container button {
   background-color: white;
-}
-.container .aboutme {
-  margin-bottom: 50px;
 }
 
 code {

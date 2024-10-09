@@ -1,0 +1,49 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: skyblue;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    // sl-avatar {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: start;
+    //     flex-direction: column;
+    // }
+
+    button {
+        background-color: white;
+    }
+
+    .searchbar {
+        width: 300px;
+    }
+
+    .searchbtn {
+        margin-left: 10px;
+    }
+}
+
+code {
+    font-family: monospace;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    // sl-input {
+    //     margin-bottom: 57.75px;
+    // }
+    // sl-button.searchbtn {
+        
+    // }
+    margin-bottom: 50px;
+}
