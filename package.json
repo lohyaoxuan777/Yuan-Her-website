@@ -1,6 +1,6 @@
 {
   "name": "yuan-her-website",
-  "version": "0.9.7",
+  "version": "1.0.0",
   "description": "a website",
   "main": "scripts/index.js",
   "dependencies": {
