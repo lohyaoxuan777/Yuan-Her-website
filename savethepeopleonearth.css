@@ -1,0 +1,40 @@
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: skyblue;
+  color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container button {
+  background-color: white;
+}
+.container .searchbar {
+  width: 300px;
+}
+.container .searchbtn {
+  margin-left: 10px;
+}
+
+code {
+  font-family: monospace;
+}
+
+sl-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+canvas.gamecanvas {
+  width: 875px;
+  height: 350px;
+  border: 1.75px solid black;
+}
+
+/*# sourceMappingURL=savethepeopleonearth.css.map */

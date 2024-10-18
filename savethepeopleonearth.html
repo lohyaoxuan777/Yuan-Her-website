@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the People on Earth! - Yuan Her's Website</title>
+    <link rel="stylesheet" href="savethepeopleonearth.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/shoelace-autoloader.js"></script>
+</head>
+<body>
+    <div class="container">
+        <sl-avatar label="Yuan Her" image="assets/avatar.png"></sl-avatar>
+        <h1>Save the People on Earth!</h1>
+        <div class="game">
+            <div class="start">
+                <sl-button class="startgamebtn" variant="primary" outline>Start Game!</sl-button>
+            </div>
+            <p class="killedzombies">Killed zombies: </p>
+            <canvas class="gamecanvas"></canvas>
+            <sl-details summary="Instructions">
+                Click the button to kill the zombies. You will see the
+                number of zombies killed in the "Killed zombies" section.
+            </sl-details>
+        </div>
+        <div class="copyright">
+            <code>Yuan Her Website&trade; 2024. All rights reserved</code>
+        </div>
+    </div>
+    <script src="src/savethepeopleonearth.js"></script>
+</body>
+</html>

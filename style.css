@@ -26,4 +26,8 @@ code {
   font-family: monospace;
 }
 
+.hide {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

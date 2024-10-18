@@ -1,17 +1,11 @@
-import angular from "angular";
-//import angularAnimate from "angular-animate";
+const aboutme = document.querySelector('.aboutme');
+const aboutinfo = document.querySelector('.aboutinfo');
+const playagame = document.querySelector('.playagame');
 
-angular.module("myApp", []).controller("controllermain", [
-    "$scope",
-    function ($scope) {
-        $scope.isAboutInfoVisible = false;
+aboutme.addEventListener('click', () => {
+    aboutinfo.classList.toggle('hide');
+});
 
-        $scope.toggleAboutInfo = function () {
-            $scope.isAboutInfoVisible = !$scope.isAboutInfoVisible;
-        };
-        
-        $scope.gotoGameSearch = () => {
-            location.href = "searchagame.html";
-        };
-    },
-]);
+playagame.addEventListener('click', () => {
+    window.location.href = 'searchagame.html';
+});
