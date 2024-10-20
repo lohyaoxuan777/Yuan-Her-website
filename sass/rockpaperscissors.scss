@@ -1,0 +1,46 @@
+@mixin margindown($value) {
+    margin-bottom: $value;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(135, 206, 235);
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    button {
+        background-color: rgb(255, 255, 255);
+    }
+
+}
+
+code {
+    font-family: monospace;
+}
+
+sl-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+// TODO: compile scss to css
+.rockbtn {
+    @include margindown(21px);
+}
+
+.paperbtn {
+    @include margindown(21px);
+}
+
+.scissorsbtn {
+    @include margindown(21px);
+}

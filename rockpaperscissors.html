@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors - Yuan Her's Website</title>
+    <link rel="stylesheet" href="rockpaperscissors.css">
+    <link rel="shortcut icon" href="assets/avatar.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/shoelace-autoloader.js"></script>
+</head>
+<body>
+    <div class="container">
+        <sl-avatar label="Yuan Her" image="assets/avatar.png"></sl-avatar>
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="game">
+            <div class="yourchoose">
+                <sl-button class="rockbtn" variant="success" outline>Rock</sl-button>
+                <sl-button class="paperbtn" variant="success"  outline>Paper</sl-button>
+                <sl-button class="scissorsbtn" variant="success" outline>Scissors</sl-button>
+                <div class="userchoose"></div>
+            </div>
+            <div class="botchoose"></div>
+            <div class="gameinfo"></div>
+        </div>
+        <div class="copyright">
+            <code>Yuan Her Website&trade; 2024. All rights reserved</code>
+        </div>
+    </div>
+    <script src="src/rockpaperscissors.js"></script>
+</body>
+</html>

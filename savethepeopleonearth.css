@@ -1,7 +1,7 @@
 body, html {
   font-family: Arial, Helvetica, sans-serif;
-  background: skyblue;
-  color: black;
+  background: rgb(135, 206, 235);
+  color: rgb(0, 0, 0);
 }
 
 .container {
@@ -11,7 +11,7 @@ body, html {
   flex-direction: column;
 }
 .container button {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .container .searchbar {
   width: 300px;
@@ -34,7 +34,7 @@ sl-button {
 canvas.gamecanvas {
   width: 875px;
   height: 350px;
-  border: 1.75px solid black;
+  border: 1.75px solid rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=savethepeopleonearth.css.map */

@@ -1,5 +1,5 @@
-const games = ["Save the People on Earth"]
-const gameCodeEdition = ["save-the-people-on-earth"]
+const games = ["Save the People on Earth", "Rock, Paper, Scissors"];
+const gameCodeEdition = ["save-the-people-on-earth", "rock-paper-scissors"];
 let searchbar = document.querySelector(".searchbar");
 let searchbtn = document.querySelector(".searchbtn");
 
@@ -15,6 +15,9 @@ urlParams.forEach((value, name) => {
         } else if (gameCodeEdition[0].includes(value)) {
             console.log("Searching for " + value);
             location.href = "savethepeopleonearth.html";
+        } else if (gameCodeEdition[1].includes(value)) {
+            console.log("Searcing for: " + value);
+            location.href = "rockpaperscissors.html";
         }
     }
 });

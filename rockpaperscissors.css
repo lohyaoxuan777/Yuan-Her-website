@@ -1,0 +1,40 @@
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(135, 206, 235);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container button {
+  background-color: rgb(255, 255, 255);
+}
+
+code {
+  font-family: monospace;
+}
+
+sl-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rockbtn {
+  margin-bottom: 21px;
+}
+
+.paperbtn {
+  margin-bottom: 21px;
+}
+
+.scissorsbtn {
+  margin-bottom: 21px;
+}
+
+/*# sourceMappingURL=rockpaperscissors.css.map */
