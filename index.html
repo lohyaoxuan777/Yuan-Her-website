@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-       <div class="info-div">
+        <div class="info-div">
             <sl-avatar label="Yuan Her" image="assets/avatar.png"></sl-avatar>
             <h1>Yuan Her Website&trade;</h1>
             <p>Welcome to Yuan Her's Website, <i>version v1.5.6</i></p>
@@ -20,11 +20,18 @@
                 About Me
             </sl-button>
             <p class="hide aboutinfo">I'm Yuan Her. My school is SJKC Chung Hwa 2 at Butterworth, Malaysia.</p>
-       </div>
-       <div class="content">
-            <sl-button class="playagame" variant="success" ng-click="gotoGameSearch()" outline>Play a Game!</sl-button>
-       </div>
-       <div class="copyright">
+        </div>
+        <div class="content">
+            <sl-button class="playagame" variant="success" outline>
+                Play a Game!
+                <sl-icon name="controller"></sl-icon>
+            </sl-button>
+            <sl-button class="tools" variant="success" outline>
+                Tools
+                <sl-icon name="gear"></sl-icon>
+            </sl-button>
+        </div>
+        <div class="copyright">
             <code>Yuan Her Website&trade; 2024. All rights reserved</code>
         </div>
     </div>

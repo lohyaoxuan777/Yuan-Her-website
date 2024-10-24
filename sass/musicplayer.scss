@@ -1,0 +1,41 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: skyblue;
+    color: black;
+}
+
+.info-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    // sl-avatar {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: start;
+    //     flex-direction: column;
+    // }
+
+    button {
+        background-color: white;
+    }
+}
+
+code {
+    font-family: monospace;
+}
+
+.song {
+    border: 1.75px solid black;
+    padding: 27.5px;
+}
+

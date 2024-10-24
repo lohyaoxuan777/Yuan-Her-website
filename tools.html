@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools - Yuan Her's Website</title>
+    <link rel="stylesheet" href="searchagame.css">
+    <link rel="shortcut icon" href="assets/avatar.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/themes/light.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/shoelace-autoloader.js"></script>
+</head>
+<body>
+    <div class="container">
+        <sl-avatar label="Yuan Her" image="assets/avatar.png"></sl-avatar>
+        <h1>Search Tools down below!</h1>
+        <div class="search">
+            <form action="/tools.html" name="searchform" method="get">
+                <sl-select label="Choose a tool" class="searchbar" name="search">
+                    <sl-option value="music-player">Music Player</sl-option>
+                </sl-select>
+                <sl-button class="searchbtn" variant="primary" outline type="submit">
+                    Search
+                    <sl-icon name="search" slot="prefix"></sl-icon>
+                </sl-button>
+            </form>
+        </div>
+        <div class="copyright">
+            <code>Yuan Her Website&trade; 2024. All rights reserved</code>
+        </div>
+    </div>
+    <script src="src/tools.js"></script>
+</body>
+</html>
