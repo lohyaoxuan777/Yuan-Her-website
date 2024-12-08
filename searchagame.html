@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search a Game - Yuan Her's Website</title>
+    <link rel="stylesheet" href="css/searchagame.css">
+    <link rel="shortcut icon" href="assets/avatar.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+    <div class="titleDiv">
+        <img src="assets/avatar.png" class="avatar" loading="lazy">
+        <h1 class="title">Search a Game</h1>
+    </div>
+    <div class="container">
+        <div class="group">
+            <input required="" type="text" class="searchbar" list="searchparams">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Game name</label>
+        </div>
+        <datalist id="searchparams">
+            <option value="typethiswords">
+        </datalist>
+        <button class="searchbtn">
+            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                </path>
+            </svg>
+            <span class="text">Play the Game!</span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                </path>
+            </svg>
+        </button>
+    </div>
+    <script src="src/searchagame.js"></script>
+    <script src="src/avatar.js"></script>
+</body>
+</html>

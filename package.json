@@ -1,0 +1,15 @@
+{
+  "name": "yuan-her-website",
+  "version": "1.10.2",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "lohyaoxuan777",
+  "license": "MIT",
+  "description": ""
+}

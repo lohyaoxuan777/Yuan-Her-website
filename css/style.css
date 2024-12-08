@@ -1,0 +1,122 @@
+body,
+html {
+  font-family: "Open Sans", Arial, system-ui, sans-serif;
+  font-weight: 400;
+  background-color: #87CEFA;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleDiv .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container button {
+  padding: 15px;
+}
+
+.container .aboutme {
+  margin-bottom: 25px;
+}
+
+.container .aboutme  {
+  background: #008000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 17px;
+}
+
+.container .aboutme .aboutmeBtn span {
+  margin-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.aboutmeBtn {
+  background: #008000;
+  color: #fff;
+  align-items: center;
+  display: grid;
+  place-items: center;
+  padding: 1.4em;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.aboutmeBtn:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translateY(0.5em);
+}
+
+.aboutmeBtn span {
+  transition: transform 0.5s;
+}
+
+.aboutmeBtn:hover span {
+  transform: scale(0.9);
+  fill: #333333;
+}
+
+.searchagamebtn {
+  background: #004E89;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  padding: 1.4em;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.searchagamebtn:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translateY(0.5em);
+}
+
+.searchagamebtn span {
+  transition: transform 0.5s;
+}
+
+.searchagamebtn:hover span {
+  transform: scale(0.9);
+  fill: #333333;
+}
