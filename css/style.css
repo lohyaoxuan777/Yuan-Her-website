@@ -59,20 +59,20 @@ html {
   place-items: center;
   padding: 1.4em;
   border-radius: 10px;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 6px 6px 10px -1px #00000026,
+    -6px -6px 10px -1px #ffffffb3;
+  border: 1px solid #00000000;
   cursor: pointer;
   transition: transform 0.5s;
 }
 
 .aboutmeBtn:hover {
-  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 4px 4px 6px -1px #00000033,
+    inset -4px -4px 6px -1px #ffffffb3,
+    -0.5px -0.5px 0px #ffffff,
+    0.5px 0.5px 0px #00000026,
+    0px 12px 10px -10px #0000000d;
+  border: 1px solid #0000001a;
   transform: translateY(0.5em);
 }
 
@@ -95,20 +95,20 @@ html {
   place-items: center;
   padding: 1.4em;
   border-radius: 10px;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 6px 6px 10px -1px #00000026,
+    -6px -6px 10px -1px #ffffffb3;
+  border: 1px solid #00000000;
   cursor: pointer;
   transition: transform 0.5s;
 }
 
 .searchagamebtn:hover {
-  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 4px 4px 6px -1px #00000033,
+    inset -4px -4px 6px -1px #ffffffb3,
+    -0.5px -0.5px 0px #ffffff,
+    0.5px 0.5px 0px #00000026,
+    0px 12px 10px -10px #0000000d;
+  border: 1px solid #0000001a;
   transform: translateY(0.5em);
 }
 
